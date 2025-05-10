@@ -1,5 +1,5 @@
 
-import { Hero, Section, Text } from './styles'
+import { Hero, Section } from './styles'
 import { SectionTitle } from '../../components/SectionTitle'
 import { ProductCarousel } from '../../components/ProductCarousel'
 import heroBackground from '../../assets/BannerMayyaClub.jpg'
