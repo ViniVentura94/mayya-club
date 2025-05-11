@@ -2,7 +2,7 @@
 import { Hero, Section } from './styles'
 import { SectionTitle } from '../../components/SectionTitle'
 import { ProductCarousel } from '../../components/ProductCarousel'
-import heroBackground from '../../assets/BannerMayyaClub.jpg'
+import heroBackground from '../../assets/banners/BannerMayyaClub.jpg'
 
 
 export function Home() {
