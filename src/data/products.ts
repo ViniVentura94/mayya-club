@@ -96,6 +96,7 @@ export default [
         slug: 'oculos-ana',
         price: 189.9,
         images: [ana1, ana2, ana3],
+        highlight: false,
         description: `Simplicidade que nunca passa despercebida.
 
         O modelo Retangular Clássico da Mayya Club é a escolha ideal para quem prefere um visual elegante, versátil.
@@ -107,6 +108,7 @@ export default [
         slug: 'oculos-angel',
         price: 189.9,
         images: [angel1, angel2, angel3],
+        highlight: false,
         description: `Simplicidade que nunca passa despercebida.
 
         O modelo Retangular Clássico da Mayya Club é a escolha ideal para quem prefere um visual elegante, versátil.
@@ -118,6 +120,7 @@ export default [
         slug: 'oculos-bianca',
         price: 199.9,
         images: [bianca1, bianca2, bianca3, bianca4, bianca5],
+        highlight: false,
         description: `Atitude e sofisticação!
 
         O modelo Hexagonal Bianca da Mayya Club combina com um desing leve e ousado, ideal para mulheres que gostam de marcar presença com estilo.
@@ -128,6 +131,7 @@ export default [
         slug: 'oculos-bruna',
         price: 179.9,
         images: [bruna1, bruna2, bruna3, bruna4, bruna5, bruna6],
+        highlight: false,
         description: `Simplicidade que nunca passa despercebida!
 
         O modelo Retangular Clássico da Mayya Club é a escolha ideal para quem prefere um visual elegante, versátil.
@@ -139,6 +143,7 @@ export default [
         slug: 'oculos-eva',
         price: 189.9,
         images: [eva1, eva2, eva3],
+        highlight: false,
         description: `Forte, marcante e sempre em alta!
 
         O modelo Quadrado da Mayya Club é ideal para quem gosta de um visual estruturado, sofisticado e cheio de personalidade.
@@ -150,6 +155,7 @@ export default [
         slug: 'oculos-fany',
         price: 199.9,
         images: [fany1, fany2, fany3],
+        highlight: true,
         description: `Delicadeza e leveza em cada detalhe!
 
         O modelo Oval da Mayya Club é perfeito para quem procura um estilo mais suave e hamonioso, sem perder a elegância.
@@ -161,6 +167,7 @@ export default [
         slug: 'oculos-july',
         price: 189.9,
         images: [july1, july2, july3],
+        highlight: false,
         description: `Delicadeza e leveza em cada detalhe!
 
         O modelo Oval da Mayya Club é perfeito para quem procura um estilo mais suave e hamonioso, sem perder a elegância.
@@ -168,21 +175,23 @@ export default [
         As lentes com proteção UV 400 garantem cuidado total com os olhos. Esse modelo Oval é aquela peça curinga: combina com dias de sol, looks leves e sorrisos espontâneos.`
     },
     {
-        name: 'Modelo Oval Lanna',
+        name: 'Modelo Gatinho Lanna',
         slug: 'oculos-lanna',
         price: 199.9,
         images: [lanna1, lanna2],
-        description: `Delicadeza e leveza em cada detalhe!
+        highlight: true,
+        description: `O clássico que nunca sai de moda!
 
-        O modelo Oval da Mayya Club é perfeito para quem procura um estilo mais suave e hamonioso, sem perder a elegância.
-        Com curvas suaves e um encaixe confortável, ele valoriza todos os tipos de rosto com um toque clássico e feminino.
-        As lentes com proteção UV 400 garantem cuidado total com os olhos. Esse modelo Oval é aquela peça curinga: combina cojm dias de sol, looks leves e sorrisos espontâneos.`
+        O modelo Gatinho da Mayya Club é para mulheres que amam destacar o olhar com elegância, ousadia e um toque retrô.
+        Com armação marcante e levemente alongada nas laterais, ele realça a expressão e transmite confiança.
+        As lentes com proteção UV400 garantem segurança para os teus olhos com muito estilo. Modelo perfeito para look sofisticado e cheio de personalidade.`
     },
     {
         name: 'Modelo Octogonal Laura',
         slug: 'oculos-laura',
         price: 189.9,
         images: [laura1, laura2, laura3, laura4, laura5, laura6],
+        highlight: false,
         description: `Geométrico, ousado e extremamente estiloso!
 
         O modelo Octogonal da Mayya Club é para quem ama fugir do obvio com elegância.
@@ -196,6 +205,7 @@ export default [
         slug: 'oculos-leila',
         price: 179.9,
         images: [leila1, leila2, leila3, leila4, leila5],
+        highlight: false,
         description: `Forte, marcante e sempre em alta!
 
         O modelo Quadrado da Mayya Club é ideal para quem gosta de um visual estruturado, sofisticado e cheio de personalidade.
@@ -207,6 +217,7 @@ export default [
         slug: 'oculos-livia',
         price: 189.9,
         images: [livia1, livia2, livia3],
+        highlight: true,
         description: `O clássico que nunca sai de moda!
 
         O modelo Gatinho da Mayya Club é para mulheres que amam destacar o olhar com elegância, ousadia e um toque retrô.
@@ -218,6 +229,7 @@ export default [
         slug: 'oculos-lolla',
         price: 179.9,
         images: [lolla1, lolla2, lolla3],
+        highlight: true,
         description: `Delicadeza e leveza em cada detalhe!
 
         O modelo Oval da Mayya Club é perfeito para quem procura um estilo mais suave e hamonioso, sem perder a elegância.
@@ -229,6 +241,7 @@ export default [
         slug: 'oculos-luiza',
         price: 129.9,
         images: [luiza1, luiza2, luiza3],
+        highlight: true,
         description: `O clássico que nunca sai de moda!
 
         O modelo Gatinho da Mayya Club é para mulheres que amam destacar o olhar com elegância, ousadia e um toque retrô.
@@ -240,6 +253,7 @@ export default [
         slug: 'oculos-natali',
         price: 199.9,
         images: [natali1, natali2, natali3],
+        highlight: false,
         description: `Delicadeza e leveza em cada detalhe!
 
         O modelo Oval da Mayya Club é perfeito para quem procura um estilo mais suave e hamonioso, sem perder a elegância.
@@ -247,17 +261,23 @@ export default [
         As lentes com proteção UV 400 garantem cuidado total com os olhos. Esse modelo Oval é aquela peça curinga: combina cojm dias de sol, looks leves e sorrisos espontâneos.`
     },
     {
-        name: 'Óculos Sport',
+        name: 'Modelo Sport',
         slug: 'oculos-sport',
-        price: 320,
+        price: 199.9,
         images: [sport1, sport2, sport3, sport4],
-        description: 'Modelo elegante com lentes quadradas, ideal para um visual marcante.'
+        highlight: false,
+        description: `Ideal para longas sessões de treino!
+
+        O modelo Sport da Mayya Club é a escolha ideal para longas sessões de treino, alta resistência com materiais que suportam impactos e movimento intenso.
+        Com proteção UV 400 que garantem segurança e bloqueiam 100% dos raios solares, seu designer ergonômico encaize perfeito que se adptam ao rosto e evitam escorregões.
+        Possui lentes polarizadas que reduzem a reflexão e a luz, garantindo conforto e visão nítida durante o exercício físico.`
     },
     {
         name: 'Modelo Retangular Clássico Vera',
         slug: 'oculos-vera',
         price: 169.9,
         images: [vera1, vera2, vera3],
+        highlight: false,
         description: `Simplicidade que nunca passa despercebida!
 
         O modelo Retangular Clássico da Mayya Club é a escolha ideal para quem prefere um visual elegante, versátil.
