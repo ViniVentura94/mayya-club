@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# 🕶️ Mayya Club - Estilo em cada detalhe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Mayya Club** é um site responsivo criado para apresentar e gerenciar um catálogo de óculos femininos com foco em elegância, atitude e autenticidade. Desenvolvido com React e TypeScript, o projeto simula uma vitrine moderna com potencial escalável para vendas futuras.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛍️ Catálogo completo com 15+ modelos de óculos
+- 🖼️ Galeria interativa na página de produto
+- 🎯 Carrossel de destaques dinâmico
+- 📱 Responsividade total (mobile first)
+- 🧠 Organização de conteúdo com destaque manual via flag
+- ☎️ Integração com WhatsApp
+- 🧾 Página institucional "Sobre a marca"
+- 🌐 Deploy via HostGator
 
-## Expanding the ESLint configuration
+## 💻 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React.js + TypeScript
+- Styled Components
+- React Router DOM
+- Swiper (carrossel)
+- Vite
+- Favicon personalizado
+- Deploy via HostGator
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📁 Estrutura de pastas
+
+```
+src/
+├── assets/           # Imagens e mídias
+├── components/       # Componentes reutilizáveis
+├── data/             # Base de dados mockada (products.ts)
+├── pages/            # Páginas principais (Home, Catalog, Product, About)
+├── routes/           # Configuração de rotas
+└── styles/           # Temas e estilos globais
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Futuras melhorias
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [ ] Painel administrativo para gerenciamento dos produtos
+- [ ] Sistema de login para cliente
+- [ ] Integração com gateway de pagamento
+- [ ] Filtro por formato/cor de óculos
+- [ ] Formulário de contato funcional com envio por e-mail
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📸 Demonstração
+
+**Site em produção:**  
+🔗 [https://mayyaclub.com.br](https://mayyaclub.com.br)
+
+## 👨‍💻 Desenvolvedor
+
+Vinicius Ventura  
+[LinkedIn](https://www.linkedin.com/in/vinicius-ventura-passos/) | [GitHub](https://github.com/ViniVentura94)
