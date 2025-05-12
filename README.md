@@ -25,13 +25,15 @@
 
 ## 📁 Estrutura de pastas
 
+```
 src/
-├── assets/ # Imagens e mídias
-├── components/ # Componentes reutilizáveis
-├── data/ # Base de dados mockada (products.ts)
-├── pages/ # Páginas principais (Home, Catalog, Product, About)
-├── routes/ # Configuração de rotas
-└── styles/ # Temas e estilos globais
+├── assets/           # Imagens e mídias
+├── components/       # Componentes reutilizáveis
+├── data/             # Base de dados mockada (products.ts)
+├── pages/            # Páginas principais (Home, Catalog, Product, About)
+├── routes/           # Configuração de rotas
+└── styles/           # Temas e estilos globais
+```
 
 ## 🚀 Futuras melhorias
 
