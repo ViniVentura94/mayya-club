@@ -21,7 +21,7 @@ export const Container = styled.header`
 `
 
 export const Logo = styled(Link)`
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #000;
     text-shadow: 2px 2px 10px rgb(236, 164, 199);
@@ -32,6 +32,10 @@ export const Logo = styled(Link)`
         scale: 1.05;
         color: #FF71B5;
         transition: 0.7s ease-in-out;
+    }
+
+    @media (max-width: ${breakpoints.mobile}) {
+        font-size: 1.5rem;
     }
 
 `
