@@ -2,6 +2,12 @@
 
 **Mayya Club** é um site responsivo criado para apresentar e gerenciar um catálogo de óculos femininos com foco em elegância, atitude e autenticidade. Desenvolvido com React e TypeScript, o projeto simula uma vitrine moderna com potencial escalável para vendas futuras.
 
+### 💻✨ Visual Responsivo
+
+Abaixo, uma prévia da versão do site adaptada para desktop, tablet e celular.
+
+![Mayya Club Mockup](https://github.com/ViniVentura94/mayya-club/blob/main/src/assets/mockup/MockupMayyaClub.png)
+
 ## ✨ Funcionalidades
 
 - 🛍️ Catálogo completo com 15+ modelos de óculos
