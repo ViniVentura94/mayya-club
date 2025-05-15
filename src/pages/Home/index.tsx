@@ -2,7 +2,7 @@
 import { Hero, Section } from './styles'
 import { SectionTitle } from '../../components/SectionTitle'
 import { ProductCarousel } from '../../components/ProductCarousel'
-import heroBackground from '../../assets/banners/BannerMayyaClub20Off.jpg'
+import heroBackground from '../../assets/banners/BannerMayyaClubLancamento.jpg'
 
 
 export function Home() {
@@ -10,7 +10,7 @@ export function Home() {
     return (
         <>
             <Hero>
-                <img src={heroBackground} alt="Promoção Mayya Club - Todo site 20%OFF" />
+                <img src={heroBackground} alt="Lançamento Mayya Club - 20/05/2025" />
             </Hero>
 
             <Section id="catalogo">
