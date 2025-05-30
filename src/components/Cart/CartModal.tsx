@@ -1,6 +1,9 @@
 
 import styled from 'styled-components';
 import { useCart } from '../../context/CartContext';
+import { useNavigate } from 'react-router-dom';
+
+const navigate = useNavigate();
 
 const Overlay = styled.div`
     position: fixed;
@@ -101,7 +104,10 @@ export const CartModal = ({ isOpen, onClose }: CartModalProps) => {
                 {cart.length > 0 && (
                     <>
                         <Total>Total: R$ {total}</Total>
-                        <Button onClick={() => alert('Compra finalizada (simulação)!')}>Finalizar Compra</Button>
+                        <Button onClick={() => {
+                            onClose();
+                            navigate('/checkout');
+                        }}>Finalizar Compra</Button>
                     </>
                 )}
             </Modal>

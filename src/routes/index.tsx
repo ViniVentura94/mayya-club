@@ -5,6 +5,7 @@ import { Product } from '../pages/Product'
 import { Contact } from '../pages/Contact'
 import { About } from '../pages/About'
 import { CheckoutPage } from '../pages/Checkout'
+import { SuccessPage } from '../pages/Success'
 
 export function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ export function AppRoutes() {
       <Route path="/contato" element={<Contact />} />
       <Route path="/sobre" element={<About />} />
       <Route path="/checkout" element={<CheckoutPage />} />
+      <Route path="/sucesso" element={<SuccessPage />} />
     </Routes>
   )
 }
