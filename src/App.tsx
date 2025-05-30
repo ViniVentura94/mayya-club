@@ -5,9 +5,11 @@ import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 import { AppRoutes } from './routes'
 import { ContactButton } from './components/ContactButton'
+import { CartProvider } from './context/CartContext'
 
 function App() {
   return (
+    <CartProvider>
       <BrowserRouter>
         <GlobalStyle />
         <Header />
@@ -15,6 +17,7 @@ function App() {
         <Footer />
         <ContactButton />
       </BrowserRouter>
+    </CartProvider>
   );
 }
 

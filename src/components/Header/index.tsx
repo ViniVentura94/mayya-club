@@ -1,4 +1,5 @@
 import { Container, Logo, Nav, NavLink} from './styles'
+import { CartButton } from '../Cart/CartButton'
 
 export function Header() {
 
@@ -9,6 +10,7 @@ export function Header() {
         <NavLink to="/catalogo">Catálogo</NavLink>
         <NavLink to="/contato">Contato</NavLink>
         <NavLink to="/sobre">Sobre</NavLink>
+        <CartButton />
       </Nav>
     </Container>
   )
