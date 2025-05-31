@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { useCart } from '../../context/CartContext';
 import { useNavigate } from 'react-router-dom';
 
-const navigate = useNavigate();
 
 const Overlay = styled.div`
     position: fixed;
@@ -77,7 +76,8 @@ interface CartModalProps {
 
 export const CartModal = ({ isOpen, onClose }: CartModalProps) => {
     const { cart, removeFromCart } = useCart();
-
+    const navigate = useNavigate();
+    
     if (!isOpen) return null;
 
     const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0).toFixed(2);

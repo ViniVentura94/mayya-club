@@ -19,8 +19,8 @@ export const CheckoutPage = () => {
     });
 
     const onSubmit = (data: any) => {
-        console.log(data); // aqui pode futuramente salvar no backend
-        navigate('/success');
+        console.log(data); // futuramente salvar no backend
+        navigate('/sucesso');
     };
 
     return (
