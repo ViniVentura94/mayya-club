@@ -1,8 +1,8 @@
 
-
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { useNavigate } from 'react-router-dom';
 import { Container, Title, Field, Label, Input, ErrorText, Button } from './styles';
 
 const schema = yup.object().shape({
@@ -12,13 +12,15 @@ const schema = yup.object().shape({
 });
 
 export const CheckoutPage = () => {
+    const navigate = useNavigate();
+
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: yupResolver(schema)
     });
 
     const onSubmit = (data: any) => {
-        alert('Pedido confirmado! (simulação)');
-        console.log(data);
+        console.log(data); // aqui pode futuramente salvar no backend
+        navigate('/success');
     };
 
     return (
