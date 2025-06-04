@@ -16,7 +16,9 @@ export function Header() {
           <NavLink to="/catalogo">Catálogo</NavLink>
           <NavLink to="/contato">Contato</NavLink>
           <NavLink to="/sobre">Sobre</NavLink>
-          
+          <div onClick={() => setIsCartOpen(true)}>
+            <CartButton />
+          </div>
         </Nav>
       </Container>
 
@@ -24,8 +26,3 @@ export function Header() {
     </>
   );
 }
-/*
-<div onClick={() => setIsCartOpen(true)}>
-            <CartButton />
-          </div>
-*/
