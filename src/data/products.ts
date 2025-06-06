@@ -150,7 +150,7 @@ export default [
         slug: 'oculos-dani',
         price: 149.9,
         images: [dani1, dani2, dani3],
-        highlight: false,
+        highlight: true,
         description: `Simplicidade que nunca passa despercebida!
 
         O modelo Redondo Verona da Mayya Club é a escolha ideal para quem prefere um visual elegante, versátil.
