@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import { Container, Logo, Nav, NavLink } from './styles'
-import { CartButton } from '../Cart/CartButton'
+
 import { CartModal } from '../Cart/CartModal'
 
 export function Header() {
@@ -16,9 +16,7 @@ export function Header() {
           <NavLink to="/catalogo">Catálogo</NavLink>
           <NavLink to="/contato">Contato</NavLink>
           <NavLink to="/sobre">Sobre</NavLink>
-          <div onClick={() => setIsCartOpen(true)}>
-            <CartButton />
-          </div>
+          
         </Nav>
       </Container>
 
@@ -26,3 +24,11 @@ export function Header() {
     </>
   );
 }
+
+/*
+import { CartButton } from '../Cart/CartButton'
+
+<div onClick={() => setIsCartOpen(true)}>
+            <CartButton />
+          </div>
+*/

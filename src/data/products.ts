@@ -24,15 +24,20 @@ import bruna4 from '../assets/products/Bruna/BrunaPreto.webp'
 import bruna5 from '../assets/products/Bruna/BrunaPretoFoco.webp'
 import bruna6 from '../assets/products/Bruna/BrunaPretoPerfil.webp'
 
+//Oculos Dani
+import dani1 from '../assets/products/Dani/DaniPrincipal.jpg'
+import dani2 from '../assets/products/Dani/DaniFrente.jpg'
+import dani3 from '../assets/products/Dani/DaniLateral.jpg'
+
 //Oculos Eva
 import eva1 from '../assets/products/Eva/Eva.webp'
 import eva2 from '../assets/products/Eva/EvaPerfil.webp'
 import eva3 from '../assets/products/Eva/EvaFoco.webp'
 
 //Oculos Fany
-import fany1 from '../assets/products/Fany/Fany.webp'
-import fany2 from '../assets/products/Fany/FanyPerfil.webp'
-import fany3 from '../assets/products/Fany/FanyFoco.webp'
+import fany1 from '../assets/products/Fany/FanyPrincipal.jpg'
+import fany2 from '../assets/products/Fany/FanyFrente.jpg'
+import fany3 from '../assets/products/Fany/FanyLateral.jpg'
 
 //Oculos July
 import july1 from '../assets/products/July/July.webp'
@@ -40,8 +45,9 @@ import july2 from '../assets/products/July/JulyPerfil.webp'
 import july3 from '../assets/products/July/JulyFoco.webp'
 
 //Oculos Lanna
-import lanna1 from '../assets/products/Lanna/Lanna.webp'
-import lanna2 from '../assets/products/Lanna/LannaPerfil.webp'
+import lanna1 from '../assets/products/Lanna/LannaPrincipal.jpg'
+import lanna2 from '../assets/products/Lanna/LannaFrente.jpg'
+import lanna3 from '../assets/products/Lanna/LannaLateral.jpg'
 
 //Oculos Laura
 import laura1 from '../assets/products/Laura/LauraPrata.webp'
@@ -59,14 +65,15 @@ import leila4 from '../assets/products/Leila/LeilaRosaPerfil.webp'
 import leila5 from '../assets/products/Leila/LeilaRosaFoco.webp'
 
 //Oculos Livia
-import livia1 from '../assets/products/Livia/Livia.webp'
-import livia2 from '../assets/products/Livia/LiviaPerfil.webp'
-import livia3 from '../assets/products/Livia/LiviaFoco.webp'
+import livia1 from '../assets/products/Livia/LiviaPrincipal.jpg'
+import livia2 from '../assets/products/Livia/LiviaLateral.jpg'
+import livia3 from '../assets/products/Livia/LiviaFrente.jpg'
+
 
 //Oculos Lolla
-import lolla1 from '../assets/products/Lolla/Lolla.webp'
-import lolla2 from '../assets/products/Lolla/LollaPerfil.webp'
-import lolla3 from '../assets/products/Lolla/LollaFoco.webp'
+import lolla1 from '../assets/products/Lolla/LollaPrincipal.jpg'
+import lolla2 from '../assets/products/Lolla/LollaFrente.jpg'
+import lolla3 from '../assets/products/Lolla/LollaLateral.jpg'
 
 //Oculos Luiza
 import luiza1 from '../assets/products/Luiza/Luiza.webp'
@@ -139,6 +146,18 @@ export default [
         As lentes com proteção UV 400 garantem segurança total sem abrir mão do estilo. Esse modelo é o famoso curinga que nunca sai de moda e que toda mulher precisa ter na bolsa.`
     },
     {
+        name: 'Modelo Redondo Verona Dani',
+        slug: 'oculos-dani',
+        price: 149.9,
+        images: [dani1, dani2, dani3],
+        highlight: false,
+        description: `Simplicidade que nunca passa despercebida!
+
+        O modelo Redondo Verona da Mayya Club é a escolha ideal para quem prefere um visual elegante, versátil.
+        Com armação estruturada e desing atemporal, ele valoriza diferentes tipos de rosto e combina com qualquer ocasião do casual ao sofisticado.
+        As lentes com proteção UV 400 garantem segurança total sem abrir mão do estilo. Esse modelo é o famoso curinga que nunca sai de moda e que toda mulher precisa ter na bolsa.`
+    },
+    {
         name: 'Modelo Quadrado Eva',
         slug: 'oculos-eva',
         price: 189.9,
@@ -178,7 +197,7 @@ export default [
         name: 'Modelo Gatinho Lanna',
         slug: 'oculos-lanna',
         price: 199.9,
-        images: [lanna1, lanna2],
+        images: [lanna1, lanna2, lanna3],
         highlight: true,
         description: `O clássico que nunca sai de moda!
 
@@ -241,7 +260,7 @@ export default [
         slug: 'oculos-luiza',
         price: 129.9,
         images: [luiza1, luiza2, luiza3],
-        highlight: true,
+        highlight: false,
         description: `O clássico que nunca sai de moda!
 
         O modelo Gatinho da Mayya Club é para mulheres que amam destacar o olhar com elegância, ousadia e um toque retrô.
